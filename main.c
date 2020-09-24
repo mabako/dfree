@@ -19,8 +19,6 @@ long long calc(char* cmd) {
 }
 
 int main() {
-	setuid(0);
-
 	// Samba calls this with pwd=root directory of the share.
 	//
 	// Our zfs layout looks like this:
